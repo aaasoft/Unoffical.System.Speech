@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Unoffical.System.Speech</PackageId>
+    <Authors>aaasoft</Authors>
+    <PackageProjectUrl>https://github.com/aaasoft/Unoffical.System.Speech</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/aaasoft/Unoffical.System.Speech</RepositoryUrl>
+    <Description>This project is the .Net Core version of System.Speech.dll.</Description>
   </PropertyGroup>
 
   <ItemGroup>
