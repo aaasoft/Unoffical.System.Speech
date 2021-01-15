@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ExceptionStringTable.resx">
+      <LogicalName>ExceptionStringTable.resx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExceptionStringTable.zh-HANS.resources">
+      <LogicalName>ExceptionStringTable.zh-HANS.resx</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="upstable_chs.upsmap">
+      <LogicalName>upstable_chs.upsmap</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="upstable_cht.upsmap">
+      <LogicalName>upstable_cht.upsmap</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="upstable_deu.upsmap">
+      <LogicalName>upstable_deu.upsmap</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="upstable_enu.upsmap">
+      <LogicalName>upstable_enu.upsmap</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="upstable_esp.upsmap">
+      <LogicalName>upstable_esp.upsmap</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="upstable_fra.upsmap">
+      <LogicalName>upstable_fra.upsmap</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="upstable_jpn.upsmap">
+      <LogicalName>upstable_jpn.upsmap</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
+    <PackageReference Include="System.CodeDom" Version="5.0.0" />
+    <PackageReference Include="System.Security.Permissions" Version="5.0.0" />
+  </ItemGroup>
+</Project>
